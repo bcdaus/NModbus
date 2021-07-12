@@ -19,7 +19,7 @@ namespace Samples
     /// </summary>
     public class Driver
     {
-        private const string PrimarySerialPortName = "COM12";
+        private const string PrimarySerialPortName = "COM5";
         private const string SecondarySerialPortName = "COM2";
 
         private static async Task<int> Main(string[] args)
@@ -33,7 +33,7 @@ namespace Samples
                 //ModbusTcpMasterReadInputs();
                 //SimplePerfTest();
                 //ModbusSerialRtuMasterWriteRegisters();
-                //ModbusSerialAsciiMasterReadRegisters();
+                ModbusSerialAsciiMasterReadRegisters();
                 //ModbusTcpMasterReadInputs();
                 //StartModbusAsciiSlave();
                 //ModbusTcpMasterReadInputsFromModbusSlave();
